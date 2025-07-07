@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
+// Desafio Super Trunfo - Países (atividade parte 1)
 
 // Guilherme Lino
 
@@ -16,9 +16,9 @@ int main() {
     float area2, pib2;
 
 //CARTA 01  input
-    printf("CARTA 01: \n");
+    printf("CADASTRO DA CARTA 01: \n");
 
-    printf("Digite um estado, use as letras de A até H: ");
+    printf("Digite a inicial de um estado, use as letras de A até H: ");
     scanf(" %c", &estado1);
 
     printf("Código da carta, use a letra acima com números de 01 a 04 (ex. A01): ");
@@ -41,9 +41,9 @@ int main() {
 
 
 //CARTA 02 input
-    printf("\nCARTA 02\n");
+    printf("\n CADASTRO DA CARTA 02\n");
 
-    printf("Digite um estado, use as letras de A até H: ");
+    printf("Digite a inicial de um estado, use as letras de A até H: ");
     scanf(" %c", &estado2);
 
     printf("Código da carta, use a letra acima com números de 01 a 04 (ex. A01, não repita o mesmo codigo da carta 01) ");
